@@ -1,0 +1,125 @@
+html {
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    padding: 30px calc(50% - 500px);
+    justify-content: space-between;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 0 #0006;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.logo-text {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 30px calc(50% - 500px);
+}
+
+main.container {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 #0006;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.rate img {
+    height: 10px;
+}
+.card-img {
+    height: 150px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+
+.h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.card p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+p, h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+}
+
+footer {
+    box-shadow: 0 0 5px 0 #0006;
+    margin: 0;
+}
+
+.info-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0008;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 0 50px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+    max-width: 1000px;
+}
